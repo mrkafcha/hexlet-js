@@ -1,1 +1,4 @@
-console.log("Hello, goat face!");
+import _ from "lodash";
+
+console.log(_.last(['one', 'two']))
+console.log(_.capitalize("hello, goat face!"));
